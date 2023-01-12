@@ -1,0 +1,28 @@
+{
+  "name": "app-meteo-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchcss": "npx tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --watch",
+    "buildcss": "npx tailwindcss -o ./dist/css/style.css",
+    "buildminify": "npx tailwindcss -o ./dist/css/style.css --minify",
+    "pourlancermescripts": "npm run nomduscript"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haute-Ecole-Francisco-Ferrer/App-meteo-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haute-Ecole-Francisco-Ferrer/App-meteo-2022/issues"
+  },
+  "homepage": "https://github.com/Haute-Ecole-Francisco-Ferrer/App-meteo-2022#readme"
+}
